@@ -1,0 +1,109 @@
+{
+    "product": [
+       {
+          "index": "1",
+          "scope": "p1,p2,c1,c2",
+          "vw": {
+             "volume": "1.90",
+             "weight": "45"
+          },
+          "rate": "$3.50"
+       },
+       {
+          "index": "2",
+          "scope": "p11,p21,c11,c21",
+          "vw": {
+             "volume": "1.90",
+             "weight": "45"
+          },
+          "rate": "$4.50"
+       },
+       {
+          "index": "3",
+          "scope": "p111,p211,c111,c211",
+          "vw": {
+             "volume": "2.20",
+             "weight": "50"
+          },
+          "rate": "$9.50"
+       }
+    ],
+    "customer": [
+       {
+          "index": "1",
+          "scope": "111,211,121,221",
+          "rate": "$0.00"
+       },
+       {
+          "index": "2",
+          "scope": "20,200,221,321",
+          "rate": "$1.50"
+       }
+    ],
+    "order": [
+       {
+          "index": "1",
+          "amount": "50",
+          "rate": "$5.00"
+       },
+       {
+          "index": "3",
+          "amount": "200",
+          "rate": "$0.00"
+       },
+       {
+          "index": "2",
+          "amount": "100",
+          "rate": "$1.00"
+       }
+    ],
+    "coupon": [
+       {
+          "index": "1",
+          "code": "SALEOF100OFF",
+          "scope": "p1,p2,c1,c2",
+          "custom": "111, 222, 221, 2222",
+          "period": "2021-05-21,2021-09-30",
+          "percentage": "0.00"
+       },
+       {
+          "index": "2",
+          "code": "SALEOF20OFF",
+          "scope": "",
+          "custom": "",
+          "period": "2021-05-21 00:00:000,2021-09-30 11:59:59",
+          "percentage": "0.20"
+       }
+    ],
+    "distance": [
+       {
+          "index": "1",
+          "distance": "5",
+          "rate": "0.00"
+       },
+       {
+          "index": "2",
+          "distance": "15",
+          "rate": "3.00"
+       },
+       {
+          "index": "3",
+          "distance": "30",
+          "rate": "5.00"
+       }
+    ],
+    "postcode": [
+       {
+          "index": "1",
+          "from": "1 mcintyre st burwood vic 3125",
+          "to": "3125,3126,3127,3171",
+          "rate": "3.00"
+       },
+       {
+          "index": "2",
+          "from": "1 mcintyre st burwood vic 3125",
+          "to": "3225,3226,3227,3271",
+          "rate": "5.00"
+       }
+    ]
+ }
